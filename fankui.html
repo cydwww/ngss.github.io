@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>反馈</title>
+</head>
+
+<body>
+	<style>
+/* Tooltip 容器 */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* 悬停元素上显示点线 */
+}
+ 
+/* Tooltip 文本 */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #FF0004;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+}
+ 
+/* 鼠标移动上去后显示提示框 */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+ 
+<div class="tooltip">反馈
+  <span class="tooltiptext">加qq：339383682 骂站长是傻逼</span>
+</div>
+	<style>
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+	<div class="dropdown">
+  <button class="dropbtn">反馈菜单</button>
+  <div class="dropdown-content">
+    <a href="https://wx.mail.qq.com/home/index?sid=zYJaV4yVVEsuOlFaABRCVwAA#/list/1/1">站长是傻逼</a>
+    <a href="https://wx.mail.qq.com/home/index?sid=zYJaV4yVVEsuOlFaABRCVwAA#/list/1/1">站长是傻逼</a>
+    <a href="https://wx.mail.qq.com/home/index?sid=zYJaV4yVVEsuOlFaABRCVwAA#/list/1/1">邮箱：339383682@qq.com</a>
+  </div>
+</div>
+	<ul>
+  <li><a href="home.html">主页</a></li>
+  <li><a href="jiaoyi.html">捐献</a></li>
+  <li><a href="fankui.html">反馈</a></li>
+  <li><a href="untitled.html">关于</a></li>
+</ul>
+</body>
+</html>
